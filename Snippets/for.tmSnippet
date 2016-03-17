@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:element} in ${2:collection} %}
+	<string>{% for ${1:feature} in ${2:page.features} %}
 	${3}
 {% endfor %}</string>
 	<key>name</key>
